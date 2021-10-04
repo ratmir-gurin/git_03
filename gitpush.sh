@@ -1,13 +1,11 @@
 git add .
 
-echo 'Enter the commit message:'
-read commitMessage
 
-git commit -m "$commitMessage"
+echo 'Starting push to github, gitlab, bitbucket'
 
-echo 'Enter the name of the branch:'
-read branch
+git push -f gh master
+git push -f gl master
+git push -f bb master
 
-git push origin $branch
 
 read
