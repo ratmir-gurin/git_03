@@ -1,4 +1,4 @@
-git add .
+
 
 
 echo 'Starting push to github, gitlab, bitbucket'
